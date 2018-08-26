@@ -1,0 +1,58 @@
+<html>
+
+ <head>
+  <title>   my list   </title>
+   <meta charset="utf-8">
+   <script>
+   function test(){
+   alert(document.getElementById("myname").value + ",你好");
+   alert("你的校名是: "+document.getElementById("myschool").value);
+   alert("你的班級是: "+document.getElementById("myclass").value);}
+      
+   </script>
+ </head>
+ 
+  <body> 
+  <table style="widtd:90%" border="5">
+  <tr>
+    <td><img src="Clhs2.png" alt="中大壢中">	</td>
+    <td><font color="#ff0000" size="20"><b>個人資料</b></font></td> 
+	</tr>
+  <tr>
+    <td colspan="2" align="center"><b>請填寫以下資料</b></td>
+ 
+  
+  </tr>
+  <tr>
+  <td colspan="2">
+  <form>
+  <table style="widtd:90%" border="5">
+  <tr>
+    <td>姓名</td>
+    <td><input name="myname" id="myname" type="text" size="14"></td> 
+    
+  </tr>
+  <tr>
+    <td>校名</td>
+	
+    <td><input name="myschool" id="myschool" type="text" size="14"></td>
+  
+  </tr>
+  <tr>
+    <td>班級</td>
+    
+	<td><input name="myclass" id="myclass" type="text" size="14"></td>
+ 
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="button" value="送出" onclick="test();"></td>
+   
+ 
+  </tr>
+  </table>
+ 
+  </td>
+  </tr>
+  </table>
+  </body>
+</html> 
